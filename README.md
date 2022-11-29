@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# Scenario
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You are a web developer for the Acme Software company. You are asked to build an advanced prototype of an application that functions as a Gif browser. As the back-end doesn’t exist, you are asked to use an API that exists publicly.
 
-## Available Scripts
+# Mission
 
-In the project directory, you can run:
+Your mission is to create a single-page web application using ReactJS and connecting to the Giphy API (https://github.com/Giphy/GiphyAPI).
 
-### `npm start`
+# Requirements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Your project will be manually revised by an engineer according to the following requirements:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- The page should never reload.
+- Provide a form to the user so they can perform a search against the database of GIP via the API.
+- Show the results on the thumbnails in a logical way. A great quantity of results must load in a way that performance is taken into account.
+- When you click on the thumbnail, a modal light-box must be displayed that allows the user to navigate within individual GIFS as a slideshow. The GIFS on this view must be fully animated.
+- Create a user experience design very polished and refined.
+- Create code in a clean, readable way, allowing normal conventions.
+- The objective for you is to create your own lightbox and the slideshow app, without using a predefined one.
+- Develop and test using Chrome/Chromium browser. Your work will be revised with that browser. ●If you have any note or instructions about the exercise, please write them on the README.md
