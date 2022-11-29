@@ -1,26 +1,20 @@
-import React from "react"
+import React, { useState } from "react"
 
-import logo from "./logo.svg"
-import styles from "./App.module.css"
+import { GiphySearch } from "./components/GiphySearch"
+import { GiphyList } from "./components/GiphyList"
 
 function App() {
+  const [gifs, setGifs] = useState([])
+
+  const setGifsToState = (gifData) => {
+    setGifs(gifData)
+  }
+
   return (
-    <div className={styles.App}>
-      <header className={styles.AppHeader}>
-        <img src={logo} className={styles.AppLogo} alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className={styles.AppLink}
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GiphySearch setGifs={setGifsToState} />
+      <GiphyList gifs={gifs} />
+    </>
   )
 }
 
