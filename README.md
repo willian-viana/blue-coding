@@ -17,4 +17,5 @@ Your project will be manually revised by an engineer according to the following 
 - Create a user experience design very polished and refined.
 - Create code in a clean, readable way, allowing normal conventions.
 - The objective for you is to create your own lightbox and the slideshow app, without using a predefined one.
-- Develop and test using Chrome/Chromium browser. Your work will be revised with that browser. ●If you have any note or instructions about the exercise, please write them on the README.md
+- Develop and test using Chrome/Chromium browser. Your work will be revised with that browser. 
+- If you have any note or instructions about the exercise, please write them on the README.md
